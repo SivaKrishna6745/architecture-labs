@@ -7,6 +7,7 @@ const Day01 = () => {
 
     return (
         <div className="flex flex-col gap-4 justify-center items-center">
+            <h2 className="text-3xl">Use Debounce Hook</h2>
             <input
                 type="text"
                 name="text"
