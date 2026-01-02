@@ -24,7 +24,7 @@ const Day02 = () => {
     };
 
     return (
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-4 justify-center items-center">
             <h2 className="text-3xl">Promise Polyfill</h2>
             <span className="text-xl">Status: {status}</span>
             <div className="flex gap-4 justify-center">
