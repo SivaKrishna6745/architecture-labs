@@ -4,6 +4,7 @@ import Day02 from './days/Day02/Day02';
 import Day03 from './days/Day03/Day03';
 import Day04 from './days/Day04/Day04';
 import Day05 from './days/Day05/Day05';
+import Day06 from './days/Day06/Day06';
 
 function App() {
     return (
@@ -18,6 +19,8 @@ function App() {
             <Day04 />
             <hr className="my-12 border-gray-300 w-full" />
             <Day05 />
+            <hr className="my-12 border-gray-300 w-full" />
+            <Day06 />
             <hr className="my-12 border-gray-300 w-full" />
         </>
     );
