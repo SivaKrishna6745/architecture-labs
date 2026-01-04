@@ -77,7 +77,7 @@ const Day06 = () => {
                     {!hasMore && (
                         <h3 className="text-center text-gray-400 text-lg font-bold my-2">You are all caught up!!</h3>
                     )}
-                    <div ref={observerTarget} className="h-10"></div>
+                    {items.length > 0 && <div ref={observerTarget} className="h-10"></div>}
                 </div>
             </div>
         </div>
