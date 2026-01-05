@@ -4,6 +4,7 @@ import Day03 from './days/Day03/Day03';
 import Day04 from './days/Day04/Day04';
 import Day05 from './days/Day05/Day05';
 import Day06 from './days/Day06/Day06';
+import Day07 from './days/Day07/Day07';
 
 export type Challenge = keyof typeof challenges;
 
@@ -14,6 +15,7 @@ const challenges = {
     'Day 04: File Explorer': Day04,
     'Day 05: Accordion': Day05,
     'Day 06: Intersection Observer': Day06,
+    'Day 7: The Draggable Slider': Day07,
 };
 
 export default challenges;
