@@ -84,34 +84,37 @@ const Day07 = () => {
     };
 
     return (
-        <div
-            ref={containerRef}
-            className="overflow-hidden max-w-4xl mx-auto"
-            onMouseDown={handleMouseDown}
-            onMouseMove={handleMouseMove}
-            onMouseUp={handleEndDrag}
-            onMouseLeave={handleEndDrag}
-        >
+        <div className="flex flex-col items-center">
+            <h2 className="text-3xl mb-4">The Draggable Slider</h2>
             <div
-                ref={trackRef}
-                className={`flex ${
-                    isDragging
-                        ? 'cursor-grabbing transform-none'
-                        : 'cursor-grab transition-transform duration-300 ease-out'
-                }`}
-                style={{ transform: `translateX(${currentTranslate}px)` }}
+                ref={containerRef}
+                className="overflow-hidden max-w-4xl mx-auto"
+                onMouseDown={handleMouseDown}
+                onMouseMove={handleMouseMove}
+                onMouseUp={handleEndDrag}
+                onMouseLeave={handleEndDrag}
             >
-                {slides.map((slide) => {
-                    return (
-                        <div key={slide.id} className="min-w-75 mx-2 rounded-md">
-                            <img
-                                src={slide.image}
-                                alt={slide.title}
-                                className="h-96 w-full object-cover pointer-events-none select-none rounded-md"
-                            />
-                        </div>
-                    );
-                })}
+                <div
+                    ref={trackRef}
+                    className={`flex ${
+                        isDragging
+                            ? 'cursor-grabbing transform-none'
+                            : 'cursor-grab transition-transform duration-300 ease-out'
+                    }`}
+                    style={{ transform: `translateX(${currentTranslate}px)` }}
+                >
+                    {slides.map((slide) => {
+                        return (
+                            <div key={slide.id} className="min-w-75 mx-2 rounded-md">
+                                <img
+                                    src={slide.image}
+                                    alt={slide.title}
+                                    className="h-96 w-full object-cover pointer-events-none select-none rounded-md"
+                                />
+                            </div>
+                        );
+                    })}
+                </div>
             </div>
         </div>
     );
