@@ -9,6 +9,7 @@ import Day08 from './days/Day08/Day08';
 import Day09 from './days/Day09/Day09';
 import Day10 from './days/Day10/Day10';
 import Day11 from './days/Day11/Day11';
+import Day12 from './days/Day12/Day12';
 
 export type Challenge = keyof typeof challenges;
 
@@ -24,6 +25,7 @@ const challenges = {
     'Day 9: The Infinite Scroll': Day09,
     'Day 10: The Custom State Manager (Mini-Redux)': Day10,
     'Day 11: The Time Machine (Undo/Redo) ⏳': Day11,
+    'Day 12: Click Outside Logic (Refs & Events) 🖱️': Day12,
 };
 
 export default challenges;
