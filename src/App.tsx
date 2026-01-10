@@ -9,7 +9,7 @@ function App() {
     return (
         <div className="bg-slate-900">
             <div className="text-5xl py-3 text-center border-b-2 border-slate-800 font-mono font-bold">Frontend 30</div>
-            <div className="grid grid-cols-[350px_1fr] h-[calc(100vh-10rem)] text-white">
+            <div className="grid grid-cols-[420px_1fr] h-[calc(100vh-10rem)] text-white">
                 <div className="flex flex-col border-r-2 border-slate-800 py-4 h-full overflow-y-scroll">
                     {(Object.keys(challenges) as Challenge[]).map((challenge: Challenge) => {
                         return (
