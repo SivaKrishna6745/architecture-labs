@@ -10,6 +10,8 @@ import Day09 from './days/Day09/Day09';
 import Day10 from './days/Day10/Day10';
 import Day11 from './days/Day11/Day11';
 import Day12 from './days/Day12/Day12';
+import Day13 from './days/Day13/Day13';
+import Day14 from './days/Day14/Day14';
 
 export type Challenge = keyof typeof challenges;
 
@@ -26,6 +28,8 @@ const challenges = {
     'Day 10: The Custom State Manager (Mini-Redux)': Day10,
     'Day 11: The Time Machine (Undo/Redo) ⏳': Day11,
     'Day 12: Click Outside Logic (Refs & Events) 🖱️': Day12,
+    'Day 13: The Portal Modal (Escaping the Trap) 🚪': Day13,
+    'Day 14: Batching & Rendering Optimization': Day14,
 };
 
 export default challenges;
