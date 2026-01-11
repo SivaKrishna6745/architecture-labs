@@ -12,6 +12,7 @@ import Day11 from './days/Day11/Day11';
 import Day12 from './days/Day12/Day12';
 import Day13 from './days/Day13/Day13';
 import Day14 from './days/Day14/Day14';
+import Day15 from './days/Day15/Day15';
 
 export type Challenge = keyof typeof challenges;
 
@@ -30,6 +31,7 @@ const challenges = {
     'Day 12: Click Outside Logic (Refs & Events) 🖱️': Day12,
     'Day 13: The Portal Modal (Escaping the Trap) 🚪': Day13,
     'Day 14: Batching & Rendering Optimization': Day14,
+    'Day 15: Compound Component Tabs': Day15,
 };
 
 export default challenges;
