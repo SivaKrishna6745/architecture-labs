@@ -14,6 +14,7 @@ import Day13 from './days/Day13/Day13';
 import Day14 from './days/Day14/Day14';
 import Day15 from './days/Day15/Day15';
 import Day16 from './days/Day16/Day16';
+import Day17 from './days/Day17/Day17';
 
 export type Challenge = keyof typeof challenges;
 
@@ -27,13 +28,14 @@ const challenges = {
     'Day 7: The Draggable Slider': Day07,
     'Day 8: The "Real-World" Fetch': Day08,
     'Day 9: The Infinite Scroll': Day09,
-    'Day 10: The Custom State Manager (Mini-Redux)': Day10,
-    'Day 11: The Time Machine (Undo/Redo) ⏳': Day11,
-    'Day 12: Click Outside Logic (Refs & Events) 🖱️': Day12,
-    'Day 13: The Portal Modal (Escaping the Trap) 🚪': Day13,
+    'Day 10: The Custom State Manager': Day10,
+    'Day 11: The Time Machine ⏳': Day11,
+    'Day 12: Click Outside Logic 🖱️': Day12,
+    'Day 13: The Portal Modal 🚪': Day13,
     'Day 14: Batching & Rendering Optimization': Day14,
     'Day 15: Compound Component Tabs': Day15,
-    'Day 16: Polymorphic Components (The Chameleon) 🦎': Day16,
+    'Day 16: Polymorphic Components 🦎': Day16,
+    'Day 17: Render Props 🎭': Day17,
 };
 
 export default challenges;
