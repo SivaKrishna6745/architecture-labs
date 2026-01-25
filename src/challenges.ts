@@ -17,6 +17,7 @@ import Day16 from './days/Day16/Day16';
 import Day17 from './days/Day17/Day17';
 import Day18 from './days/Day18/Day18';
 import Day19 from './days/Day19/Day19';
+import Day20 from './days/Day20/Day20';
 
 export type Challenge = keyof typeof challenges;
 
@@ -40,6 +41,7 @@ const challenges = {
     'Day 17: Render Props 🎭': Day17,
     'Day 18: Higher-Order Components 🌯': Day18,
     'Day 19: Controlled vs. Uncontrolled Inputs 🎛️': Day19,
+    'Day 20: Virtualization 🧱': Day20,
 };
 
 export default challenges;
