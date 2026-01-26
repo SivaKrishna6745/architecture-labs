@@ -20,6 +20,7 @@ import Day19 from './days/Day19/Day19';
 import Day20 from './days/Day20/Day20';
 import Day21 from './days/Day21/Day21';
 import Day22 from './days/Day22/Day22';
+import Day23 from './days/Day23/Day23';
 
 export type Challenge = keyof typeof challenges;
 
@@ -46,6 +47,7 @@ const challenges = {
     'Day 20: Virtualization 🧱': Day20,
     'Day 21: Error Boundaries 💥': Day21,
     'Day 22: The Memoization Lab 🧠': Day22,
+    'Day 23: Code Splitting & Lazy Loading 📦': Day23,
 };
 
 export default challenges;
