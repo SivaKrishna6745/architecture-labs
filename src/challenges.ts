@@ -21,6 +21,7 @@ import Day20 from './days/Day20/Day20';
 import Day21 from './days/Day21/Day21';
 import Day22 from './days/Day22/Day22';
 import Day23 from './days/Day23/Day23';
+import Day24 from './days/Day24/Day24';
 
 export type Challenge = keyof typeof challenges;
 
@@ -31,9 +32,9 @@ const challenges = {
     'Day 04: File Explorer': Day04,
     'Day 05: Accordion': Day05,
     'Day 06: Intersection Observer': Day06,
-    'Day 7: The Draggable Slider': Day07,
-    'Day 8: The "Real-World" Fetch': Day08,
-    'Day 9: The Infinite Scroll': Day09,
+    'Day 07: The Draggable Slider': Day07,
+    'Day 08: The "Real-World" Fetch': Day08,
+    'Day 09: The Infinite Scroll': Day09,
     'Day 10: The Custom State Manager': Day10,
     'Day 11: The Time Machine ⏳': Day11,
     'Day 12: Click Outside Logic 🖱️': Day12,
@@ -48,6 +49,7 @@ const challenges = {
     'Day 21: Error Boundaries 💥': Day21,
     'Day 22: The Memoization Lab 🧠': Day22,
     'Day 23: Code Splitting & Lazy Loading 📦': Day23,
+    'Day 24: Web Workers (Off-Main-Thread Processing) 👷': Day24,
 };
 
 export default challenges;
