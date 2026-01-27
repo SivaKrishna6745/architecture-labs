@@ -22,6 +22,7 @@ import Day21 from './days/Day21/Day21';
 import Day22 from './days/Day22/Day22';
 import Day23 from './days/Day23/Day23';
 import Day24 from './days/Day24/Day24';
+import Day25 from './days/Day25/Day25';
 
 export type Challenge = keyof typeof challenges;
 
@@ -50,6 +51,7 @@ const challenges = {
     'Day 22: The Memoization Lab 🧠': Day22,
     'Day 23: Code Splitting & Lazy Loading 📦': Day23,
     'Day 24: Web Workers (Off-Main-Thread Processing) 👷': Day24,
+    'Day 25: Drag-and-Drop Kanban 📋': Day25,
 };
 
 export default challenges;
