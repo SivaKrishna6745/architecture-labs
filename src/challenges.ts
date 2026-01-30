@@ -25,6 +25,7 @@ import Day24 from './days/Day24/Day24';
 import Day25 from './days/Day25/Day25';
 import Day26 from './days/Day26/Day26';
 import Day27 from './days/Day27/Day27';
+import Day28 from './days/Day28/Day28';
 
 export type Challenge = keyof typeof challenges;
 
@@ -56,6 +57,7 @@ const challenges = {
     'Day 25: Drag-and-Drop Kanban 📋': Day25,
     'Day 26: Service Workers (Offline Mode) 📡': Day26,
     'Day 27: Form Validation Engine 📝': Day27,
+    'Day 28: Global Toast Notification System 🍞': Day28,
 };
 
 export default challenges;
